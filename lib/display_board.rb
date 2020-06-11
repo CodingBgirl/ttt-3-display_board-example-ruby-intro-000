@@ -1,8 +1,8 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board (board)
-  return " #{board[0]} | #{board[1]} | #{board[2]}"
-  return "-----------"
-  return " #{board[3]} | #{board[4]} | #{board[5]}"
-  return "-----------"
-  return " #{board[6]} | #{board[7]} | #{board[8]} "
+  " #{board[0]} | #{board[1]} | #{board[2]}"
+  "-----------"
+  " #{board[3]} | #{board[4]} | #{board[5]}"
+  "-----------"
+  " #{board[6]} | #{board[7]} | #{board[8]} "
 end
